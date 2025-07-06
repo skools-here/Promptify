@@ -112,7 +112,7 @@ Follow these rules:
     </button>
 
     {/* Response Box */}
-    <div className="bg-gradient-to-br from-neutral-800 via-neutral-900 to-black border border-white/10 shadow-xl text-white p-6 mt-8 rounded-3xl text-base leading-relaxed tracking-wide space-y-4 transition-all duration-300">
+    <div className="bg-gradient-to-br from-neutral-800 via-neutral-900 to-black border border-white/10 shadow-xl text-white p-6 mt-8 rounded-3xl text-base leading-relaxed tracking-wide space-y-4 transition-all duration-300 ">
       {response}
     </div>
   </div>
