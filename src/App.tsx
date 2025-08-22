@@ -26,7 +26,7 @@ function App() {
     setLoading(true)
     try {
       const res = await fetch(
-        `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-pro:generateContent?key=AIzaSyCfHYsMBn89u0k_vxafsvbDtbBIa4EGx_U`,
+        `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-pro:generateContent?key=${API_KEY}`,
         {
           method: "POST",
           headers: {
